@@ -42,7 +42,7 @@ const $tableChat = document.querySelector('#table-chat');
 
 $chatForm.addEventListener('submit', e => {
 	e.preventDefault();
-	if ($userEmail.value == '') return alert('Ingresa tu email');
+	if ($userEmail.value == '') return alert('Ingrese tu email');
 	const newMessage = {
 		userEmail: $userEmail.value,
 		message: $chatMessage.value,
