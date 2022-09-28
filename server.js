@@ -5,7 +5,7 @@ const { engine } = require('express-handlebars');
 const { router, products, messages } = require('./routes/router.js');
 const fs = require('fs');
 
-const PORT = 8080;
+const PORT = 8081;
 const app = express();
 const httpserver = new HttpServer(app);
 const io = new IOServer(httpserver);
